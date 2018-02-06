@@ -1,0 +1,63 @@
+<head>
+    <link href="/css/styles.css" type="text/css" rel="stylesheet" />
+    <meta charset="utf-8"/>
+    <title>Address Suggestions</title>
+</head>
+<body>
+    <h1>Address Suggestions</h1>
+    <article>
+
+        <div>Начните вводить адрес (РФ): </div>
+        <input type="text"  id="address"     name="address"      class="dadata_input"/>
+        <h2>Получилось: </h2>
+        <div>
+            <div class="dadata_div">Регион: </div>
+            <input type="text"  id="region"      name="region"       class="dadata_input"/>
+        </div>
+        <div>
+            <div class="dadata_div">Тип региона: </div>
+            <input type="text"  id="region_type" name="region_type"  class="dadata_input"/>
+        </div>
+        <div>
+            <div class="dadata_div">Район: </div>
+            <input type="text"  id="district"    name="district"     class="dadata_input"/>
+        </div>
+        <div>
+            <div class="dadata_div">Название населенного пункта: </div>
+            <input type="text"  id="city"        name="city"         class="dadata_input"/>
+        </div>
+        <div>
+            <div class="dadata_div">Тип населенного пункта: </div>
+            <input type="text"  id="city_type"   name="city_type"    class="dadata_input"/>
+        </div>
+        <div>
+            <div class="dadata_div">Район города: </div>
+            <input type="text"  id="area"        name="area"         class="dadata_input"/>
+        </div>
+        <div>
+            <div class="dadata_div">Название улицы: </div>
+            <input type="text"  id="street"      name="street"       class="dadata_input"/>
+        </div>
+        <div>
+            <div class="dadata_div">Тип улицы: </div>
+            <input type="text"  id="street_type" name="street_type"  class="dadata_input"/>
+        </div>
+        <div>
+            <div class="dadata_div">Дом: </div>
+            <input type="text"  id="house"       name="house"        class="dadata_input"/>
+        </div>
+        <div>
+            <div class="dadata_div">Координаты: </div>
+            <div  id="geo"     name="geo"></div>
+        </div>
+
+
+        <script type="text/javascript" src="/js/jquery-3.2.1.min.js"></script>
+        <link href="https://cdn.jsdelivr.net/npm/suggestions-jquery@17.10.1/dist/css/suggestions.min.css" type="text/css" rel="stylesheet" />
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/suggestions-jquery@17.10.1/dist/js/jquery.suggestions.min.js"></script>
+        <script type="text/javascript" src="/js/dadata_suggestions.js"></script>
+    </article>
+    <article>
+        <div id="result" name="result" class="dadata_result"></div>
+    </article>
+</body>

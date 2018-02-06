@@ -1,0 +1,14 @@
+body{
+    background-color: lightgreen;
+}
+.dadata_div{
+    min-width: 100px;
+}
+.dadata_input{
+    font-size: medium;
+    width: 70%;
+    margin: 0.5%;
+}
+.dadata_result{
+    font-size: medium;
+}
