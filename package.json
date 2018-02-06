@@ -1,0 +1,25 @@
+{
+  "name": "addresssuggestions",
+  "version": "1.0.0",
+  "description": "dadata using",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VakhromeevaKate/AddressSuggestions.git"
+  },
+  "keywords": [
+    "dadata"
+  ],
+  "author": "Ekaterina Vakhromeeva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VakhromeevaKate/AddressSuggestions/issues"
+  },
+  "homepage": "https://github.com/VakhromeevaKate/AddressSuggestions#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
